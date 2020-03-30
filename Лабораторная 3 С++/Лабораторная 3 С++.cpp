@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 
+
 using namespace std;
 
 bool isSame(const string& s)
@@ -21,4 +22,5 @@ int main(int argc, char* argv[])
     cout << boolalpha;//Перевод из 0,1 в True False
     cout << s1 << " => " << isSame(s1) << endl;
     cout << s2 << " => " << isSame(s2) << endl;
+ 
 }
