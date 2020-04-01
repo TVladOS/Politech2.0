@@ -39,7 +39,6 @@ int main()
     strncpy(S, temp_S, strlen(temp_S) + 1);
 
     
-    //cout << S << '\n';
     cin.get();
 
     system("pause");
