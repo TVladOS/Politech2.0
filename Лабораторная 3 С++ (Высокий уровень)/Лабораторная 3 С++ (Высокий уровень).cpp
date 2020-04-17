@@ -25,7 +25,6 @@ int main()
     cin.getline(S, 256);
     strncpy(temp_S, S, strlen(S) + 1);
     
-    //cout << S << endl;
    
     char* ptr = 0;
     ptr = strtok(S, SEPARATORS);
@@ -40,9 +39,7 @@ int main()
     }
     strncpy(S, temp_S, strlen(temp_S) + 1);
 
-    
-    //cout << S << '\n';
-    cin.get();
+        cin.get();
 
     system("pause");
     return 0;
