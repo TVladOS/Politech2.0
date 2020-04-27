@@ -1,0 +1,7 @@
+Name: vlad
+sex: 
+nationality: ukrainian
+date: 27.04.2020
+academic degree: scientist
+position: docent
+phone number: 0977880068
