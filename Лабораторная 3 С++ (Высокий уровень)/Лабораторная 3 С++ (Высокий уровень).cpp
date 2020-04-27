@@ -26,6 +26,7 @@ int main()
     strncpy(temp_S, S, strlen(S) + 1);
     
    
+       
     char* ptr = 0;
     ptr = strtok(S, SEPARATORS);
     while (ptr)
@@ -39,7 +40,9 @@ int main()
     }
     strncpy(S, temp_S, strlen(temp_S) + 1);
 
-        cin.get();
+    
+    //cout << S << '\n';
+    cin.get();
 
     system("pause");
     return 0;
